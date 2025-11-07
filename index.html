@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="nav" aria-label="Primary">
+        <div class="brand">
+            <span class="dot"></span>
+            <h3><b>CYBER</b>FICTION</h3>
+        </div>
+        <div class="nav-actions" id="navActions">
+            <button class="ghost" data-scroll-to="#features">Explore</button>
+            <button class="ghost" data-scroll-to="#gallery">Gallery</button>
+            <button class="ghost" data-scroll-to="#roadmap">Roadmap</button>
+            <button class="ghost" data-scroll-to="#contact">Contact</button>
+            <button class="primary" id="buyPassBtn">Buy Pass</button>
+        </div>
+    
+        <!-- Mobile hamburger -->
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+    
+        <!-- Mobile menu (hidden on desktop) -->
+        <div id="mobileMenu" class="mobile-menu" role="menu" aria-hidden="true">
+            <button class="mobile-link" data-scroll-to="#features" role="menuitem">Explore</button>
+            <button class="mobile-link" data-scroll-to="#gallery" role="menuitem">Gallery</button>
+            <button class="mobile-link" data-scroll-to="#roadmap" role="menuitem">Roadmap</button>
+            <button class="mobile-link" data-scroll-to="#contact" role="menuitem">Contact</button>
+            <button class="mobile-link primary" id="buyPassBtnMobile" role="menuitem">Buy Pass</button>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div id="main">
+        <div id="page">
+            <div id="loop">
+                <h1><b>CYBER</b>FICTION IS THE <b><i>REAL</i></b> <span>STORY</span> IN THE
+                    <span><i>METAVERSE.</i></span>
+                </h1>
+                <h1><b>CYBER</b>FICTION IS THE <b><i>REAL</i></b> <span>STORY</span> IN THE
+                    <span><i>METAVERSE.</i></span>
+                </h1>
+                <h1><b>CYBER</b>FICTION IS THE <b><i>REAL</i></b> <span>STORY</span> IN THE
+                    <span><i>METAVERSE.</i></span>
+                </h1>
+            </div>
+            <h3>CYBERFICTION AIMS TO BE A DECENTRALIZED COMMUNITY THAT CAN CREATE NEW VALUES AND PROFITS THROUGH PLAY IN THE VIRTUAL WORLD.</h3>
+            <h4>...SCROLL TO READ</h4>
+            <canvas></canvas>
+        </div>
+
+        <!-- first page -->
+        <div id="page1">
+            <div id="right-text">
+                <h3>CYBERFICTION / KEY WORD</h3>
+                <h1>HAVE FUN
+                    <br>
+                    LET'S PLAY
+                    <br>
+                    JUST BE TOGETHER
+                </h1>
+            </div>
+            <div id="left-text">
+                <h1>MAKE A STORY
+                    <br>
+                    TAKE A CHANCE
+                    <br>
+                    BUILD AND OWNED
+                </h1>
+                <h3>..AND MAINTAIN GOOD HUMANITY</h3>
+            </div>
+        </div>
+
+        <!-- second page -->
+        <div id="page2">
+            <div id="text1">
+                <h3>CYBERFICTION / HAVE FUN</h3>
+                <h1>LET'S
+                    <br>
+                    HAVE FUN
+                    <br>
+                    TOGETHER
+                </h1>
+            </div>
+            <div id="text2">
+                <p>LET'S HAVE A BLAST! LET'S JUST THROW AWAY AGE, GENDER, REGION, <br> STATUS, ETC., DON'T COMPETE,
+                    DON'T FIGHT, COOPERATE AND SHARE <br> WITH EACH OTHER AND ENJOY IT TOGETHER! SO THAT YOU CAN STAND
+                    <br> THERE IN THE NOT-TOO-DISTANT FUTURE AND DREAM OF ANOTHER NEW <br> FUTURE
+                </p>
+            </div>
+        </div>
+
+        <!-- third page -->
+        <div id="page3">
+            <div id="text3">
+                <h3>CYBERFICTION / PLAYGROUND</h3>
+                <h1>CYBERFIELD IS OUR PLAYGROUND </h1>
+            </div>
+        </div>
+        <footer id="page4" aria-label="Footer" role="contentinfo">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <h4>CYBERFICTION</h4>
+                    <p> CYBER FICTION IS THE REAL STORY IN THE METAVERSE.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#features" class="footer-link" data-scroll-to="#features">Features</a>
+                    <a href="#gallery" class="footer-link" data-scroll-to="#gallery">Gallery</a>
+                    <a href="#roadmap" class="footer-link" data-scroll-to="#roadmap">Roadmap</a>
+                    <a href="#contact" class="footer-link" data-scroll-to="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-note">
+                <p>© 2025 CyberFiction — All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+        integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
